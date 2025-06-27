@@ -74,11 +74,12 @@ def main():
         sys.exit(1)
     
     try:
-        # 봇 인스턴스 생성 및 실행
+        # 봇 인스턴스 생성
         bot = StockNewsBot()
         logger.info("봇 초기화 완료, 실행 중...")
         
-        # 봇 실행 (동기 방식)
+        # 봇 실행 (기본 방식)
+        # 스케줄러는 봇 내부에서 자동으로 시작됨
         bot.app.run_polling(
             allowed_updates=Update.ALL_TYPES,
             drop_pending_updates=True

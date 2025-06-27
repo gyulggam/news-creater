@@ -55,3 +55,173 @@
 2025-06-27 15:35:38 | INFO     | src.bot.telegram_bot:_setup_handlers:54 - 핸들러 설정 완료
 2025-06-27 15:35:38 | INFO     | src.bot.telegram_bot:__init__:39 - StockNewsBot 초기화 완료
 2025-06-27 15:35:38 | INFO     | __main__:main:79 - 봇 초기화 완료, 실행 중...
+2025-06-27 15:42:06 | DEBUG    | src.crawler.news_crawler:_crawl_naver_finance:101 - 'a[href*="/news/news_read"]' 셀렉터로 6개 뉴스 발견
+2025-06-27 15:42:06 | INFO     | src.crawler.news_crawler:_crawl_naver_finance:170 - 네이버 증권에서 5개 뉴스 수집
+2025-06-27 15:42:06 | INFO     | src.bot.telegram_bot:_get_latest_news:221 - 크롤러에서 5개 뉴스 수집됨
+2025-06-27 15:42:07 | INFO     | src.bot.telegram_bot:news_command:122 - 사용자 6471017960에게 뉴스 카드 전송
+2025-06-27 15:47:17 | INFO     | src.bot.telegram_bot:_setup_handlers:73 - 핸들러 설정 완료
+2025-06-27 15:47:18 | ERROR    | src.bot.telegram_bot:_init_scheduler:52 - 스케줄러 초기화 실패: No module named 'apscheduler'
+2025-06-27 15:47:18 | INFO     | src.bot.telegram_bot:__init__:43 - StockNewsBot 초기화 완료
+2025-06-27 15:47:18 | INFO     | __main__:main:79 - 봇 초기화 완료, 실행 중...
+2025-06-27 15:48:15 | ERROR    | __main__:main:114 - 봇 실행 중 오류 발생: Event loop is closed
+2025-06-27 15:49:33 | INFO     | src.bot.telegram_bot:_init_scheduler:56 - 뉴스 스케줄러 초기화 완료
+2025-06-27 15:49:33 | INFO     | src.bot.telegram_bot:_setup_handlers:91 - 핸들러 설정 완료
+2025-06-27 15:49:33 | INFO     | src.bot.telegram_bot:__init__:49 - StockNewsBot 초기화 완료
+2025-06-27 15:49:33 | INFO     | __main__:main:79 - 봇 초기화 완료, 실행 중...
+2025-06-27 15:49:34 | INFO     | src.utils.scheduler:_setup_default_schedules:56 - 뉴스 전송 스케줄 추가: 09:00
+2025-06-27 15:49:34 | INFO     | src.utils.scheduler:_setup_default_schedules:56 - 뉴스 전송 스케줄 추가: 12:00
+2025-06-27 15:49:34 | INFO     | src.utils.scheduler:_setup_default_schedules:56 - 뉴스 전송 스케줄 추가: 15:00
+2025-06-27 15:49:34 | INFO     | src.utils.scheduler:_setup_default_schedules:56 - 뉴스 전송 스케줄 추가: 18:00
+2025-06-27 15:49:34 | INFO     | src.utils.scheduler:start:33 - 뉴스 스케줄러 시작됨
+2025-06-27 15:49:34 | INFO     | src.bot.telegram_bot:_post_init:64 - 뉴스 스케줄러 시작됨
+2025-06-27 15:50:54 | INFO     | src.bot.telegram_bot:_init_scheduler:56 - 뉴스 스케줄러 초기화 완료
+2025-06-27 15:50:54 | INFO     | src.bot.telegram_bot:_setup_handlers:91 - 핸들러 설정 완료
+2025-06-27 15:50:54 | INFO     | src.bot.telegram_bot:__init__:49 - StockNewsBot 초기화 완료
+2025-06-27 15:50:54 | INFO     | __main__:main:79 - 봇 초기화 완료, 실행 중...
+2025-06-27 15:50:55 | INFO     | src.utils.scheduler:_setup_default_schedules:57 - 🧪 테스트 모드: 현재 시간 15:50에서 1분, 2분, 3분 후 알림 설정
+2025-06-27 15:50:55 | INFO     | src.utils.scheduler:_setup_default_schedules:68 - 🔔 테스트 알림 스케줄 추가: 15:51 (1분 후)
+2025-06-27 15:50:55 | INFO     | src.utils.scheduler:_setup_default_schedules:68 - 🔔 테스트 알림 스케줄 추가: 15:52 (2분 후)
+2025-06-27 15:50:55 | INFO     | src.utils.scheduler:_setup_default_schedules:68 - 🔔 테스트 알림 스케줄 추가: 15:53 (3분 후)
+2025-06-27 15:50:55 | INFO     | src.utils.scheduler:_setup_default_schedules:79 - 📅 정시 알림 스케줄 추가: 09:00
+2025-06-27 15:50:55 | INFO     | src.utils.scheduler:_setup_default_schedules:79 - 📅 정시 알림 스케줄 추가: 12:00
+2025-06-27 15:50:55 | INFO     | src.utils.scheduler:_setup_default_schedules:79 - 📅 정시 알림 스케줄 추가: 15:00
+2025-06-27 15:50:55 | INFO     | src.utils.scheduler:_setup_default_schedules:79 - 📅 정시 알림 스케줄 추가: 18:00
+2025-06-27 15:50:55 | INFO     | src.utils.scheduler:start:33 - 뉴스 스케줄러 시작됨
+2025-06-27 15:50:55 | INFO     | src.bot.telegram_bot:_post_init:64 - 뉴스 스케줄러 시작됨
+2025-06-27 15:51:00 | INFO     | src.utils.scheduler:_send_scheduled_news:85 - 스케줄된 뉴스 전송 시작: 15:51
+2025-06-27 15:51:00 | INFO     | src.utils.scheduler:_get_active_subscribers_for_time:176 - 📭 현재 활성화된 구독자가 없습니다. /notify_on 명령어로 알림을 활성화하세요.
+2025-06-27 15:51:00 | INFO     | src.utils.scheduler:_send_scheduled_news:91 - 현재 시간에 알림을 받을 구독자가 없습니다
+2025-06-27 15:51:59 | INFO     | src.bot.telegram_bot:_init_scheduler:56 - 뉴스 스케줄러 초기화 완료
+2025-06-27 15:51:59 | INFO     | src.bot.telegram_bot:_setup_handlers:91 - 핸들러 설정 완료
+2025-06-27 15:51:59 | INFO     | src.bot.telegram_bot:__init__:49 - StockNewsBot 초기화 완료
+2025-06-27 15:51:59 | INFO     | __main__:main:79 - 봇 초기화 완료, 실행 중...
+2025-06-27 15:52:00 | INFO     | src.utils.scheduler:_setup_default_schedules:57 - 🧪 테스트 모드: 현재 시간 15:52에서 1분, 2분, 3분 후 알림 설정
+2025-06-27 15:52:00 | INFO     | src.utils.scheduler:_setup_default_schedules:68 - 🔔 테스트 알림 스케줄 추가: 15:53 (1분 후)
+2025-06-27 15:52:00 | INFO     | src.utils.scheduler:_setup_default_schedules:68 - 🔔 테스트 알림 스케줄 추가: 15:54 (2분 후)
+2025-06-27 15:52:00 | INFO     | src.utils.scheduler:_setup_default_schedules:68 - 🔔 테스트 알림 스케줄 추가: 15:55 (3분 후)
+2025-06-27 15:52:00 | INFO     | src.utils.scheduler:_setup_default_schedules:79 - 📅 정시 알림 스케줄 추가: 09:00
+2025-06-27 15:52:00 | INFO     | src.utils.scheduler:_setup_default_schedules:79 - 📅 정시 알림 스케줄 추가: 12:00
+2025-06-27 15:52:00 | INFO     | src.utils.scheduler:_setup_default_schedules:79 - 📅 정시 알림 스케줄 추가: 15:00
+2025-06-27 15:52:00 | INFO     | src.utils.scheduler:_setup_default_schedules:79 - 📅 정시 알림 스케줄 추가: 18:00
+2025-06-27 15:52:00 | INFO     | src.utils.scheduler:start:33 - 뉴스 스케줄러 시작됨
+2025-06-27 15:52:00 | INFO     | src.bot.telegram_bot:_post_init:64 - 뉴스 스케줄러 시작됨
+2025-06-27 15:53:00 | INFO     | src.utils.scheduler:_send_scheduled_news:85 - 스케줄된 뉴스 전송 시작: 15:53
+2025-06-27 15:53:00 | INFO     | src.utils.scheduler:_get_active_subscribers_for_time:176 - 📭 현재 활성화된 구독자가 없습니다. /notify_on 명령어로 알림을 활성화하세요.
+2025-06-27 15:53:00 | INFO     | src.utils.scheduler:_send_scheduled_news:91 - 현재 시간에 알림을 받을 구독자가 없습니다
+2025-06-27 15:53:57 | INFO     | src.utils.scheduler:add_subscriber:191 - 구독자 추가: 6471017960, 알림시간: ['09:00', '12:00', '15:00', '18:00']
+2025-06-27 15:53:58 | INFO     | src.bot.telegram_bot:notify_on_command:293 - 사용자 6471017960 알림 활성화
+2025-06-27 15:54:00 | INFO     | src.utils.scheduler:_send_scheduled_news:85 - 스케줄된 뉴스 전송 시작: 15:54
+2025-06-27 15:54:00 | INFO     | src.utils.scheduler:_get_active_subscribers_for_time:174 - 🔔 알림 대상 구독자: 1명 - [6471017960]
+2025-06-27 15:54:00 | DEBUG    | src.crawler.news_crawler:_crawl_naver_finance:101 - 'a[href*="/news/news_read"]' 셀렉터로 6개 뉴스 발견
+2025-06-27 15:54:00 | INFO     | src.crawler.news_crawler:_crawl_naver_finance:170 - 네이버 증권에서 5개 뉴스 수집
+2025-06-27 15:54:00 | INFO     | src.utils.scheduler:_send_scheduled_news:113 - 스케줄된 뉴스 전송 완료: 1/1명
+2025-06-27 15:55:00 | INFO     | src.utils.scheduler:_send_scheduled_news:85 - 스케줄된 뉴스 전송 시작: 15:55
+2025-06-27 15:55:00 | INFO     | src.utils.scheduler:_get_active_subscribers_for_time:174 - 🔔 알림 대상 구독자: 1명 - [6471017960]
+2025-06-27 15:55:00 | DEBUG    | src.crawler.news_crawler:_crawl_naver_finance:101 - 'a[href*="/news/news_read"]' 셀렉터로 6개 뉴스 발견
+2025-06-27 15:55:00 | INFO     | src.crawler.news_crawler:_crawl_naver_finance:170 - 네이버 증권에서 5개 뉴스 수집
+2025-06-27 15:55:01 | INFO     | src.utils.scheduler:_send_scheduled_news:113 - 스케줄된 뉴스 전송 완료: 1/1명
+2025-06-27 15:56:41 | INFO     | src.bot.telegram_bot:_init_scheduler:56 - 뉴스 스케줄러 초기화 완료
+2025-06-27 15:56:41 | INFO     | src.bot.telegram_bot:_setup_handlers:91 - 핸들러 설정 완료
+2025-06-27 15:56:41 | INFO     | src.bot.telegram_bot:__init__:49 - StockNewsBot 초기화 완료
+2025-06-27 15:56:41 | INFO     | __main__:main:79 - 봇 초기화 완료, 실행 중...
+2025-06-27 15:56:42 | INFO     | src.utils.scheduler:_setup_default_schedules:64 - 📅 30분 간격 뉴스 알림 스케줄 설정 중...
+2025-06-27 15:56:42 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 09:00
+2025-06-27 15:56:42 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 09:30
+2025-06-27 15:56:42 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 10:00
+2025-06-27 15:56:42 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 10:30
+2025-06-27 15:56:42 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 11:00
+2025-06-27 15:56:42 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 11:30
+2025-06-27 15:56:42 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 12:00
+2025-06-27 15:56:42 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 12:30
+2025-06-27 15:56:42 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 13:00
+2025-06-27 15:56:42 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 13:30
+2025-06-27 15:56:42 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 14:00
+2025-06-27 15:56:42 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 14:30
+2025-06-27 15:56:42 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 15:00
+2025-06-27 15:56:42 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 15:30
+2025-06-27 15:56:42 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 16:00
+2025-06-27 15:56:42 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 16:30
+2025-06-27 15:56:42 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 17:00
+2025-06-27 15:56:42 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 17:30
+2025-06-27 15:56:42 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 18:00
+2025-06-27 15:56:42 | INFO     | src.utils.scheduler:_setup_default_schedules:77 - ✅ 총 19개 알림 시간 설정 완료 (30분 간격)
+2025-06-27 15:56:42 | INFO     | src.utils.scheduler:start:49 - 뉴스 스케줄러 시작됨
+2025-06-27 15:56:42 | INFO     | src.bot.telegram_bot:_post_init:64 - 뉴스 스케줄러 시작됨
+2025-06-27 16:00:00 | INFO     | src.utils.scheduler:_send_scheduled_news:83 - 스케줄된 뉴스 전송 시작: 16:00
+2025-06-27 16:00:00 | INFO     | src.utils.scheduler:_get_active_subscribers_for_time:174 - 📭 현재 활성화된 구독자가 없습니다. /notify_on 명령어로 알림을 활성화하세요.
+2025-06-27 16:00:00 | INFO     | src.utils.scheduler:_send_scheduled_news:89 - 현재 시간에 알림을 받을 구독자가 없습니다
+2025-06-27 16:01:11 | INFO     | src.bot.telegram_bot:_init_scheduler:60 - 뉴스 스케줄러 초기화 완료
+2025-06-27 16:01:11 | INFO     | src.bot.telegram_bot:_init_news_monitor:69 - 뉴스 모니터 초기화 완료
+2025-06-27 16:01:11 | INFO     | src.bot.telegram_bot:_setup_handlers:118 - 핸들러 설정 완료
+2025-06-27 16:01:11 | INFO     | src.bot.telegram_bot:__init__:53 - StockNewsBot 초기화 완료
+2025-06-27 16:01:11 | INFO     | __main__:main:79 - 봇 초기화 완료, 실행 중...
+2025-06-27 16:01:12 | INFO     | src.utils.scheduler:_setup_default_schedules:64 - 📅 30분 간격 뉴스 알림 스케줄 설정 중...
+2025-06-27 16:01:12 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 09:00
+2025-06-27 16:01:12 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 09:30
+2025-06-27 16:01:12 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 10:00
+2025-06-27 16:01:12 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 10:30
+2025-06-27 16:01:12 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 11:00
+2025-06-27 16:01:12 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 11:30
+2025-06-27 16:01:12 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 12:00
+2025-06-27 16:01:12 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 12:30
+2025-06-27 16:01:12 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 13:00
+2025-06-27 16:01:12 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 13:30
+2025-06-27 16:01:12 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 14:00
+2025-06-27 16:01:12 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 14:30
+2025-06-27 16:01:12 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 15:00
+2025-06-27 16:01:12 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 15:30
+2025-06-27 16:01:12 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 16:00
+2025-06-27 16:01:12 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 16:30
+2025-06-27 16:01:12 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 17:00
+2025-06-27 16:01:12 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 17:30
+2025-06-27 16:01:12 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 18:00
+2025-06-27 16:01:12 | INFO     | src.utils.scheduler:_setup_default_schedules:77 - ✅ 총 19개 알림 시간 설정 완료 (30분 간격)
+2025-06-27 16:01:12 | INFO     | src.utils.scheduler:start:49 - 뉴스 스케줄러 시작됨
+2025-06-27 16:01:12 | INFO     | src.bot.telegram_bot:_post_init:77 - 뉴스 스케줄러 시작됨
+2025-06-27 16:01:12 | INFO     | src.utils.news_monitor:start_monitoring:39 - 🔍 뉴스 모니터링 시작 - 300초마다 체크, 3개 이상 새 뉴스시 알림
+2025-06-27 16:01:12 | INFO     | src.bot.telegram_bot:_post_init:81 - 뉴스 모니터링 시작됨
+2025-06-27 16:01:12 | DEBUG    | src.crawler.news_crawler:_crawl_naver_finance:101 - 'a[href*="/news/news_read"]' 셀렉터로 6개 뉴스 발견
+2025-06-27 16:01:12 | INFO     | src.crawler.news_crawler:_crawl_naver_finance:170 - 네이버 증권에서 5개 뉴스 수집
+2025-06-27 16:01:12 | INFO     | src.utils.news_monitor:_initialize_known_news:81 - 📋 기존 뉴스 5개로 모니터링 초기화
+2025-06-27 16:01:12 | DEBUG    | src.crawler.news_crawler:_crawl_naver_finance:101 - 'a[href*="/news/news_read"]' 셀렉터로 6개 뉴스 발견
+2025-06-27 16:01:12 | INFO     | src.crawler.news_crawler:_crawl_naver_finance:170 - 네이버 증권에서 5개 뉴스 수집
+2025-06-27 16:01:47 | INFO     | src.bot.telegram_bot:_init_scheduler:60 - 뉴스 스케줄러 초기화 완료
+2025-06-27 16:01:47 | INFO     | src.bot.telegram_bot:_init_news_monitor:69 - 뉴스 모니터 초기화 완료
+2025-06-27 16:01:47 | INFO     | src.bot.telegram_bot:_setup_handlers:118 - 핸들러 설정 완료
+2025-06-27 16:01:47 | INFO     | src.bot.telegram_bot:__init__:53 - StockNewsBot 초기화 완료
+2025-06-27 16:01:47 | INFO     | __main__:main:79 - 봇 초기화 완료, 실행 중...
+2025-06-27 16:01:48 | INFO     | src.utils.scheduler:_setup_default_schedules:64 - 📅 30분 간격 뉴스 알림 스케줄 설정 중...
+2025-06-27 16:01:48 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 09:00
+2025-06-27 16:01:48 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 09:30
+2025-06-27 16:01:48 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 10:00
+2025-06-27 16:01:48 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 10:30
+2025-06-27 16:01:48 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 11:00
+2025-06-27 16:01:48 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 11:30
+2025-06-27 16:01:48 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 12:00
+2025-06-27 16:01:48 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 12:30
+2025-06-27 16:01:48 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 13:00
+2025-06-27 16:01:48 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 13:30
+2025-06-27 16:01:48 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 14:00
+2025-06-27 16:01:48 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 14:30
+2025-06-27 16:01:48 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 15:00
+2025-06-27 16:01:48 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 15:30
+2025-06-27 16:01:48 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 16:00
+2025-06-27 16:01:48 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 16:30
+2025-06-27 16:01:48 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 17:00
+2025-06-27 16:01:48 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 17:30
+2025-06-27 16:01:48 | INFO     | src.utils.scheduler:_setup_default_schedules:75 - ⏰ 뉴스 알림 스케줄 추가: 18:00
+2025-06-27 16:01:48 | INFO     | src.utils.scheduler:_setup_default_schedules:77 - ✅ 총 19개 알림 시간 설정 완료 (30분 간격)
+2025-06-27 16:01:48 | INFO     | src.utils.scheduler:start:49 - 뉴스 스케줄러 시작됨
+2025-06-27 16:01:48 | INFO     | src.bot.telegram_bot:_post_init:77 - 뉴스 스케줄러 시작됨
+2025-06-27 16:01:48 | INFO     | src.utils.news_monitor:start_monitoring:39 - 🔍 뉴스 모니터링 시작 - 300초마다 체크, 3개 이상 새 뉴스시 알림
+2025-06-27 16:01:48 | INFO     | src.bot.telegram_bot:_post_init:81 - 뉴스 모니터링 시작됨
+2025-06-27 16:01:49 | DEBUG    | src.crawler.news_crawler:_crawl_naver_finance:101 - 'a[href*="/news/news_read"]' 셀렉터로 6개 뉴스 발견
+2025-06-27 16:01:49 | INFO     | src.crawler.news_crawler:_crawl_naver_finance:170 - 네이버 증권에서 5개 뉴스 수집
+2025-06-27 16:01:49 | INFO     | src.utils.news_monitor:_initialize_known_news:81 - 📋 기존 뉴스 5개로 모니터링 초기화
+2025-06-27 16:01:49 | DEBUG    | src.crawler.news_crawler:_crawl_naver_finance:101 - 'a[href*="/news/news_read"]' 셀렉터로 6개 뉴스 발견
+2025-06-27 16:01:49 | INFO     | src.crawler.news_crawler:_crawl_naver_finance:170 - 네이버 증권에서 5개 뉴스 수집
+2025-06-27 16:02:40 | INFO     | src.utils.scheduler:add_subscriber:189 - 구독자 추가: 6471017960, 알림시간: ['09:00', '09:30', '10:00', '10:30', '11:00', '11:30', '12:00', '12:30', '13:00', '13:30', '14:00', '14:30', '15:00', '15:30', '16:00', '16:30', '17:00', '17:30', '18:00']
+2025-06-27 16:02:40 | INFO     | src.utils.scheduler:toggle_subscriber:208 - 구독자 6471017960 알림 활성화
+2025-06-27 16:02:41 | INFO     | src.bot.telegram_bot:monitor_on_command:564 - 사용자 6471017960 뉴스 모니터링 활성화
+2025-06-27 16:03:03 | INFO     | src.utils.news_monitor:set_threshold:227 - 🔧 알림 임계값 변경: 5개 뉴스
+2025-06-27 16:03:04 | INFO     | src.bot.telegram_bot:set_threshold_command:695 - 사용자 6471017960 임계값 변경: 3 -> 5
