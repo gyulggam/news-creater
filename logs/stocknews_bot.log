@@ -1,0 +1,57 @@
+2025-06-27 15:04:29 | ERROR    | __main__:main:86 - 봇 실행 중 오류 발생: invalid literal for int() with base 10: '5  # 한 번에 보낼 뉴스 개수'
+2025-06-27 15:05:45 | ERROR    | __main__:main:86 - 봇 실행 중 오류 발생: invalid literal for int() with base 10: '5  # 한 번에 보낼 뉴스 개수'
+2025-06-27 15:06:20 | ERROR    | __main__:main:86 - 봇 실행 중 오류 발생: invalid literal for int() with base 10: '5  # 한 번에 보낼 뉴스 개수'
+2025-06-27 15:06:41 | INFO     | src.bot.telegram_bot:_setup_handlers:55 - 핸들러 설정 완료
+2025-06-27 15:06:41 | INFO     | src.bot.telegram_bot:__init__:40 - StockNewsBot 초기화 완료
+2025-06-27 15:06:41 | INFO     | __main__:main:79 - 봇 초기화 완료, 실행 중...
+2025-06-27 15:06:41 | INFO     | src.bot.telegram_bot:run:300 - StockNewsBot 시작...
+2025-06-27 15:06:41 | ERROR    | __main__:main:86 - 봇 실행 중 오류 발생: Cannot close a running event loop
+2025-06-27 15:07:02 | INFO     | src.bot.telegram_bot:_setup_handlers:55 - 핸들러 설정 완료
+2025-06-27 15:07:02 | INFO     | src.bot.telegram_bot:__init__:40 - StockNewsBot 초기화 완료
+2025-06-27 15:07:02 | INFO     | __main__:main:79 - 봇 초기화 완료, 실행 중...
+2025-06-27 15:07:02 | INFO     | src.bot.telegram_bot:run:300 - StockNewsBot 시작...
+2025-06-27 15:07:07 | ERROR    | __main__:main:86 - 봇 실행 중 오류 발생: 'Updater' object has no attribute 'idle'
+2025-06-27 15:07:19 | INFO     | src.bot.telegram_bot:_setup_handlers:55 - 핸들러 설정 완료
+2025-06-27 15:07:19 | INFO     | src.bot.telegram_bot:__init__:40 - StockNewsBot 초기화 완료
+2025-06-27 15:07:19 | INFO     | __main__:main:79 - 봇 초기화 완료, 실행 중...
+2025-06-27 15:07:19 | INFO     | src.bot.telegram_bot:run:300 - StockNewsBot 시작...
+2025-06-27 15:07:21 | ERROR    | __main__:main:86 - 봇 실행 중 오류 발생: 'Updater' object has no attribute 'idle'
+2025-06-27 15:07:39 | INFO     | src.bot.telegram_bot:_setup_handlers:55 - 핸들러 설정 완료
+2025-06-27 15:07:39 | INFO     | src.bot.telegram_bot:__init__:40 - StockNewsBot 초기화 완료
+2025-06-27 15:07:39 | INFO     | __main__:main:79 - 봇 초기화 완료, 실행 중...
+2025-06-27 15:07:39 | INFO     | src.bot.telegram_bot:run:300 - StockNewsBot 시작...
+2025-06-27 15:07:39 | ERROR    | __main__:main:86 - 봇 실행 중 오류 발생: This event loop is already running
+2025-06-27 15:08:12 | INFO     | src.bot.telegram_bot:_setup_handlers:55 - 핸들러 설정 완료
+2025-06-27 15:08:12 | INFO     | src.bot.telegram_bot:__init__:40 - StockNewsBot 초기화 완료
+2025-06-27 15:08:12 | INFO     | __main__:main:79 - 봇 초기화 완료, 실행 중...
+2025-06-27 15:10:53 | INFO     | src.bot.telegram_bot:_setup_handlers:55 - 핸들러 설정 완료
+2025-06-27 15:10:53 | INFO     | src.bot.telegram_bot:__init__:40 - StockNewsBot 초기화 완료
+2025-06-27 15:10:53 | INFO     | __main__:main:79 - 봇 초기화 완료, 실행 중...
+2025-06-27 15:11:34 | INFO     | src.bot.telegram_bot:start_command:83 - 사용자 6471017960 봇 시작
+2025-06-27 15:11:50 | INFO     | src.bot.telegram_bot:news_command:123 - 사용자 6471017960에게 뉴스 카드 전송
+2025-06-27 15:20:20 | INFO     | src.bot.telegram_bot:_setup_handlers:54 - 핸들러 설정 완료
+2025-06-27 15:20:20 | INFO     | src.bot.telegram_bot:__init__:39 - StockNewsBot 초기화 완료
+2025-06-27 15:20:20 | INFO     | __main__:main:79 - 봇 초기화 완료, 실행 중...
+2025-06-27 15:21:30 | INFO     | src.bot.telegram_bot:news_command:122 - 사용자 6471017960에게 뉴스 카드 전송
+2025-06-27 15:24:24 | INFO     | src.bot.telegram_bot:_setup_handlers:54 - 핸들러 설정 완료
+2025-06-27 15:24:24 | INFO     | src.bot.telegram_bot:__init__:39 - StockNewsBot 초기화 완료
+2025-06-27 15:24:24 | INFO     | __main__:main:79 - 봇 초기화 완료, 실행 중...
+2025-06-27 15:26:19 | INFO     | src.bot.telegram_bot:_setup_handlers:54 - 핸들러 설정 완료
+2025-06-27 15:26:19 | INFO     | src.bot.telegram_bot:__init__:39 - StockNewsBot 초기화 완료
+2025-06-27 15:26:19 | INFO     | __main__:main:79 - 봇 초기화 완료, 실행 중...
+2025-06-27 15:28:49 | INFO     | src.crawler.news_crawler:_crawl_naver_finance:138 - RSS에서 0개 뉴스 수집
+2025-06-27 15:28:49 | WARNING  | src.bot.telegram_bot:_get_latest_news:224 - 크롤러에서 뉴스를 가져오지 못함, 대체 뉴스 사용
+2025-06-27 15:28:50 | INFO     | src.bot.telegram_bot:news_command:122 - 사용자 6471017960에게 뉴스 카드 전송
+2025-06-27 15:29:39 | INFO     | src.crawler.news_crawler:_crawl_naver_finance:138 - RSS에서 0개 뉴스 수집
+2025-06-27 15:29:39 | WARNING  | src.bot.telegram_bot:_get_latest_news:224 - 크롤러에서 뉴스를 가져오지 못함, 대체 뉴스 사용
+2025-06-27 15:29:40 | INFO     | src.bot.telegram_bot:button_callback:200 - 사용자 6471017960 뉴스 새로고침
+2025-06-27 15:32:28 | INFO     | src.bot.telegram_bot:_setup_handlers:54 - 핸들러 설정 완료
+2025-06-27 15:32:28 | INFO     | src.bot.telegram_bot:__init__:39 - StockNewsBot 초기화 완료
+2025-06-27 15:32:28 | INFO     | __main__:main:79 - 봇 초기화 완료, 실행 중...
+2025-06-27 15:32:45 | DEBUG    | src.crawler.news_crawler:_crawl_naver_finance:100 - '.news_area a' 셀렉터로 7개 뉴스 발견
+2025-06-27 15:32:45 | INFO     | src.crawler.news_crawler:_crawl_naver_finance:149 - 네이버 증권에서 5개 뉴스 수집
+2025-06-27 15:32:45 | INFO     | src.bot.telegram_bot:_get_latest_news:221 - 크롤러에서 5개 뉴스 수집됨
+2025-06-27 15:32:46 | INFO     | src.bot.telegram_bot:news_command:122 - 사용자 6471017960에게 뉴스 카드 전송
+2025-06-27 15:35:38 | INFO     | src.bot.telegram_bot:_setup_handlers:54 - 핸들러 설정 완료
+2025-06-27 15:35:38 | INFO     | src.bot.telegram_bot:__init__:39 - StockNewsBot 초기화 완료
+2025-06-27 15:35:38 | INFO     | __main__:main:79 - 봇 초기화 완료, 실행 중...
